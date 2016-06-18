@@ -1,0 +1,74 @@
+
+<Style>
+* {
+	box-sizing: border-box;
+	padding:0;
+  margin:0;
+}
+h1 {
+     color: green;
+     text-align: center;
+     font-size: 36px;
+  }
+  body{
+  	background-color: lightgrey;
+  }
+
+  .Cities{
+  	height: 200px;
+  	padding: 0px;
+    border: 2px black;
+    margin: 10px;
+    float:left;
+  }
+
+
+  #City1.Cities{
+  	background-color: lightgreen;
+  }   
+   
+  #City2.Cities{
+  	background-color: lightblue;
+  }
+
+  #City3.Cities{
+  	background-color: orange;
+  }
+  #Title{
+    border: 1px black;
+    background-color:#1800ff;
+    color: white;
+    font-size: 20px;
+    font:bold;
+    float:right;
+  }
+  p{
+  	clear:right;
+    font-size: 16px;
+    margin:10px;
+  }
+
+@media(min-width: 992px){
+ div.Cities {
+  width: 31%;
+ }
+}
+@media(min-width: 768px) and (max-width: 991px){
+ #City1.Cities{ 
+    width:47%;
+ }
+ #City2.Cities{ 
+    width:47%;
+ }
+ #City3.Cities{ 
+    width:96%;
+ }
+}
+
+@media(max-width: 767px){  
+div.Cities {
+  width: 96%;
+ }
+}
+</Style>
+
